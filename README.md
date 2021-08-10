@@ -21,6 +21,24 @@ The app written in MVC architecture and has following classes, files and methods
  
  - View.fxml (User-interface)
  
+How To Use:
+ - After cloning this repository, you need to add following lines to VM options in Edit Configurations:
+ Windows:
+  --module-path
+"\path\to\javafx\sdk\lib"
+--add-modules
+javafx.controls,javafx.fxml
+--add-modules
+javafx.controls,javafx.media 
+
+ Mac:
+ --module-path
+"/path/to/javafx/sdk/lib"
+--add-modules
+javafx.controls,javafx.fxml
+--add-modules
+javafx.controls,javafx.media 
+ 
  Screenshot:
  ![Image of example1] (https://github.com/Arnazarov/MP3player/blob/master/Screen1.JPG)
  ![Image of example2] (https://github.com/Arnazarov/MP3player/blob/master/Screen2.JPG)
